@@ -88,6 +88,8 @@ function setStartBtn() {
   btnLeft.innerText =  'START';
   btnLeft.classList.remove('stop');
   btnLeft.classList.add('start');
+  document.getElementById('dotdot').style.visibility = 'visible';
+
   
 }
   
@@ -126,6 +128,7 @@ btnRight.addEventListener('click', function () {
     minUni.innerText = '0';
     secDec.innerText  = '0';
     secUni.innerText  = '0';
+    document.getElementById('dotdot').style.visibility = 'visible';
     clearSplits();  
   }
   else{

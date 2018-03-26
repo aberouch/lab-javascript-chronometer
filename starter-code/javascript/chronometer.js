@@ -30,7 +30,6 @@ Chronometer.prototype.setMinutes = function (currentTime) {
 Chronometer.prototype.setSeconds = function () {
 
   var seconds = (this.currentTime%60);
-
   return Math.floor(seconds);
 };
 
