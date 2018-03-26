@@ -11,6 +11,7 @@ body {
 }
 
 #clock {
+  /*background-image: url('http://www.demoapplewatch.com/images/watch3.png')*/
   border: 2px solid #000;
   border-radius: 20px;
   box-sizing: border-box;
@@ -35,10 +36,15 @@ body {
 }
 
 #splits-container {
+  color: black;
   font-size: 20px;
   font-weight: 100;
   position: absolute;
   left: 50px;
+}
+
+#dotdot {
+ 
 }
 
 #splits-container li {
@@ -115,3 +121,5 @@ body {
 .btn.stop  { background: #f14949; }
 .btn.reset { background: #908e8e; }
 .btn.split { background: #0851ab; }
+
+
